@@ -1,0 +1,3 @@
+[submodule "modules/schemas/ipfscluster"]
+	path = modules/schemas/ipfscluster
+	url = http://gitlab.tresearchgroup.ca/tresearchgroup/programming-department/schemas/ipfscluster.git
