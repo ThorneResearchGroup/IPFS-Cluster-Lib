@@ -1,6 +1,6 @@
 package tech.tresearchgroup.libraries.ipfscluster.model;
 
-import com.jsoniter.annotation.JsonProperty;
+import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,30 +10,30 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class IPFSClusterItem{
 
-	@JsonProperty("valid")
+	@SerializedName("valid")
 	private boolean valid;
 
-	@JsonProperty("peer")
+	@SerializedName("peer")
 	private String peer;
 
-	@JsonProperty("received_at")
+	@SerializedName("received_at")
 	private long receivedAt;
 
-	@JsonProperty("expire")
+	@SerializedName("expire")
 	private long expire;
 
-	@JsonProperty("name")
+	@SerializedName("name")
 	private String name;
 
-	@JsonProperty("triggered_at")
+	@SerializedName("triggered_at")
 	private String triggeredAt;
 
-	@JsonProperty("weight")
+	@SerializedName("weight")
 	private int weight;
 
-	@JsonProperty("partitionable")
+	@SerializedName("partitionable")
 	private boolean partitionable;
 
-	@JsonProperty("value")
+	@SerializedName("value")
 	private String value;
 }

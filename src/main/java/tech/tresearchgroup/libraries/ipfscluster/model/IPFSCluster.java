@@ -1,6 +1,6 @@
 package tech.tresearchgroup.libraries.ipfscluster.model;
 
-import com.jsoniter.annotation.JsonProperty;
+import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,36 +12,36 @@ import java.util.List;
 @NoArgsConstructor
 public class IPFSCluster{
 
-	@JsonProperty("version")
+	@SerializedName("version")
 	private String version;
 
-	@JsonProperty("IPFSCluster")
+	@SerializedName("IPFSCluster")
 	private List<IPFSClusterItem> iPFSCluster;
 
-	@JsonProperty("peername")
+	@SerializedName("peername")
 	private String peername;
 
-	@JsonProperty("addresses")
+	@SerializedName("addresses")
 	private List<String> addresses;
 
-	@JsonProperty("ipfs")
+	@SerializedName("ipfs")
 	private Ipfs ipfs;
 
-	@JsonProperty("cluster_peers_addresses")
+	@SerializedName("cluster_peers_addresses")
 	private List<String> clusterPeersAddresses;
 
-	@JsonProperty("commit")
+	@SerializedName("commit")
 	private String commit;
 
-	@JsonProperty("rpc_protocol_version")
+	@SerializedName("rpc_protocol_version")
 	private String rpcProtocolVersion;
 
-	@JsonProperty("cluster_peers")
+	@SerializedName("cluster_peers")
 	private List<String> clusterPeers;
 
-	@JsonProperty("id")
+	@SerializedName("id")
 	private String id;
 
-	@JsonProperty("error")
+	@SerializedName("error")
 	private String error;
 }

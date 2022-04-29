@@ -5,7 +5,7 @@ import com.google.gson.GsonBuilder;
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import tech.tresearchgroup.schemas.ipfscluster.model.IPFSCluster;
+import tech.tresearchgroup.libraries.ipfscluster.model.IPFSCluster;
 
 import java.io.File;
 

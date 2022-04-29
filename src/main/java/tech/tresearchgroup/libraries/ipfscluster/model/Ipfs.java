@@ -1,6 +1,6 @@
 package tech.tresearchgroup.libraries.ipfscluster.model;
 
-import com.jsoniter.annotation.JsonProperty;
+import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,12 +12,12 @@ import java.util.List;
 @NoArgsConstructor
 public class Ipfs{
 
-	@JsonProperty("addresses")
+	@SerializedName("addresses")
 	private List<String> addresses;
 
-	@JsonProperty("id")
+	@SerializedName("id")
 	private String id;
 
-	@JsonProperty("error")
+	@SerializedName("error")
 	private String error;
 }

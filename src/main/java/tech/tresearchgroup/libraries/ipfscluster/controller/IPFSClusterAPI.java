@@ -2,7 +2,7 @@ package tech.tresearchgroup.libraries.ipfscluster.controller;
 
 import retrofit2.Call;
 import retrofit2.http.*;
-import tech.tresearchgroup.schemas.ipfscluster.model.IPFSCluster;
+import tech.tresearchgroup.libraries.ipfscluster.model.IPFSCluster;
 
 import java.io.File;
 
